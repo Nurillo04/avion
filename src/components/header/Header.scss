@@ -25,6 +25,16 @@
       font-weight: 400;
       line-height: 21px;
       color: #726e8d;
+      cursor: pointer;
+      &:hover {
+        color: rgb(233, 18, 172);
+      }
+      &:active {
+        color: rgb(95, 160, 20);
+      }
     }
+  }
+  &__img {
+    cursor: pointer;
   }
 }

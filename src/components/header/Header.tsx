@@ -19,8 +19,8 @@ const Header = () => {
               <li>Product Details</li>
               <li>shopping baskets</li>
             </ul>
-            <Image src={karzinka} alt="karzinka" />
-            <Image src={avatar} alt="avatar" />
+            <Image className="header__img" src={karzinka} alt="karzinka" />
+            <Image className="header__img" src={avatar} alt="avatar" />
           </div>
         </div>
       </div>
