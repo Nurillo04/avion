@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 18px 0px;
+  h4 {
+    font-size: 24px;
+    line-height: 29px;
+    color: #22202e;
+  }
+  &__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+    li {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #726e8d;
+    }
+  }
+}

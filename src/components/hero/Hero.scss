@@ -1,0 +1,39 @@
+.hero {
+  margin-top: 60px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+  }
+  &__left {
+    max-width: 50%;
+
+    padding: 30px 108px 40px 40px;
+    background-color: #2a254b;
+
+    color: white;
+    h2 {
+      font-size: 32px;
+    }
+  }
+  &__right {
+    max-width: 50%;
+  }
+  &__btn {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    padding: 14px 18px;
+    background-color: #f9f9f926;
+    border-radius: 10px;
+    &:hover {
+      color: rgb(18, 233, 233);
+      background-color: rgb(255, 242, 0);
+    }
+    &:active {
+      color: rgb(108, 62, 207);
+      background-color: rgb(255, 0, 170);
+    }
+  }
+}
