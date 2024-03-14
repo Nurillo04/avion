@@ -4,11 +4,12 @@
   &__wrapper {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
+
     align-items: center;
   }
   &__left {
-    max-width: 50%;
+    max-width: 55%;
 
     padding: 30px 108px 40px 40px;
     background-color: #2a254b;
@@ -19,11 +20,15 @@
     }
   }
   &__right {
-    max-width: 50%;
+    max-width: 45%;
+  }
+  &__img {
+    width: 500px;
+    height: 490px;
   }
   &__btn {
     margin-top: 80px;
-    margin-bottom: 150px;
+    margin-bottom: 120px;
     padding: 14px 18px;
     background-color: #f9f9f926;
     border-radius: 10px;

@@ -1,4 +1,5 @@
 import Brand from "@/components/brand/Brand";
+import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import Input from "@/components/input/Input";
@@ -14,6 +15,7 @@ const Home = () => {
 
       <Input />
       <Studio />
+      <Footer />
     </>
   );
 };

@@ -9,7 +9,6 @@ const Header = () => {
     <div>
       <div className="container">
         <div className="header ">
-          <Image src={search} alt="search" />
           <h4>Avion</h4>
           <div className="header__right">
             <ul className="header__item">
@@ -17,8 +16,9 @@ const Header = () => {
               <li>About </li>
               <li>Product Listings</li>
               <li>Product Details</li>
-              <li>shopping baskets</li>
+              <li>Shopping baskets</li>
             </ul>
+            <Image src={search} alt="search" />
             <Image className="header__img" src={karzinka} alt="karzinka" />
             <Image className="header__img" src={avatar} alt="avatar" />
           </div>
