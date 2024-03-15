@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 .input {
   background-color: #f9f9f9;
   padding: 25px;
@@ -9,12 +10,18 @@
   &__title {
     font-size: 36px;
     line-height: 50.4px;
-    font-weight: 500;
+
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
   &__text {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   &__plc {
     background-color: #f9f9f9;
@@ -32,5 +39,55 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .input {
+    &__title {
+      font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 15px;
+    }
+    &__btn {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .input {
+    &__title {
+      font-size: 22px;
+      line-height: 20px;
+    }
+    &__btn {
+      margin-top: 20px;
+    }
+    &__plc {
+      border-radius: 8px;
+    }
+    &__btn {
+      border-radius: 8px;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .input {
+    &__title {
+      font-size: 18px;
+    }
+    &__btn {
+      margin-top: 20px;
+    }
+    &__plc {
+      border-radius: 8px;
+    }
+    &__btn {
+      border-radius: 8px;
+    }
   }
 }

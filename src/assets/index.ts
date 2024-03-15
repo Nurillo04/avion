@@ -7,6 +7,10 @@ import brand2 from "./svg/brand2.svg";
 import brand3 from "./svg/brand3.svg";
 import brand4 from "./svg/brand4.svg";
 import studioImg from "./png/studioimg.png";
+import card1 from "./png/Parent.png";
+import card2 from "./png/card2.png";
+import card3 from "./png/card3.png";
+import card4 from "./png/card4.png";
 
 export {
   search,
@@ -18,4 +22,8 @@ export {
   brand3,
   brand4,
   studioImg,
+  card1,
+  card2,
+  card3,
+  card4,
 };
