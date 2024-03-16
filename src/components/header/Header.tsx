@@ -20,12 +20,17 @@ const Header = () => {
               <li>
                 <Link href="/about">About</Link>
               </li>
-              <li>Product Listings</li>
+              <li>
+                <Link href="/product">Products</Link>
+              </li>
               <li>Product Details</li>
-              <li>Shopping baskets</li>
             </ul>
             <Image src={search} alt="search" />
-            <Image className="header__img" src={karzinka} alt="karzinka" />
+            <Link href="/korzinka">
+              {" "}
+              <Image className="header__img" src={karzinka} alt="karzinka" />
+            </Link>
+            {/* <Image className="header__img" src={karzinka} alt="karzinka" /> */}
             <Image className="header__img" src={avatar} alt="avatar" />
           </div>
         </div>
