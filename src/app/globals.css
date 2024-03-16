@@ -16,15 +16,6 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
 .container {
   max-width: 1440px;
   padding: 10px 25px;
