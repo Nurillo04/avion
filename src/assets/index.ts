@@ -11,8 +11,14 @@ import card1 from "./png/Parent.png";
 import card2 from "./png/card2.png";
 import card3 from "./png/card3.png";
 import card4 from "./png/card4.png";
+import productbanner from "./png/productbanner.png";
+import cartImg from "./png/cartImg.png";
+import DandyChair from "./png/DandyChair.png";
 
 export {
+  DandyChair,
+  cartImg,
+  productbanner,
   search,
   avatar,
   karzinka,

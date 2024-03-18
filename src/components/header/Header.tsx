@@ -21,9 +21,10 @@ const Header = () => {
                 <Link href="/about">About</Link>
               </li>
               <li>
-                <Link href="/product">Products</Link>
+                <Link href="/products">Products</Link>
               </li>
-              <li>Product Details</li>
+
+              <Link href="/productDetails">ProductDetails</Link>
             </ul>
             <Image src={search} alt="search" />
             <Link href="/korzinka">

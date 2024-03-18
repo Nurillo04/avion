@@ -41,6 +41,26 @@ const About = () => {
         </div>
       </div>
       <Brand />
+
+      <div className="inputAbout">
+        <div className="container">
+          <div className="inputAbout__wrapper">
+            <h3 className="inputAbout__title">
+              Join the club and get the benefits
+            </h3>
+            <p className="inputAbout__text">
+              Sign up for our newsletter and receive exclusive offers on new
+              ranges, sales, pop up stores and more
+            </p>
+            <input
+              className="inputAbout__plc"
+              type="text"
+              placeholder="your@email.com"
+            />
+            <button className="inputAbout__btn">Sign up</button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
