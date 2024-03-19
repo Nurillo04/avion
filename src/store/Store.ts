@@ -11,7 +11,8 @@ let allDatas = create<storeType>((set) => ({
   getDatas: async () => {
     try {
       let res = await axios.get(
-        "https://65f258c5034bdbecc7649f36.mockapi.io/app/products"
+        // "https://65f258c5034bdbecc7649f36.mockapi.io/app/products"
+        "https://65f8832ddf151452460f92d3.mockapi.io/products"
       );
       let dat = await res.data;
       set(() => ({

@@ -3,7 +3,7 @@
 import allDatas from "../../store/Store";
 import { useEffect } from "react";
 
-const OurProducts = () => {
+const Card2 = () => {
   let { loading, datas, getDatas } = allDatas();
 
   useEffect(() => {
@@ -22,11 +22,11 @@ const OurProducts = () => {
         <div className=" container pl-[26px]">
           <div className="w-full ">
             <p className="mb-[36px] text-[#2A254B] lg:text-[32px]">
-              Our popular products
+              New ceramics
             </p>
           </div>
           <div className="flex flex-wrap sckrollers pl cursor-pointer">
-            {datas.slice(1, 5).map(
+            {datas.slice(8, 13).map(
               (
                 e: {
                   image: string;
@@ -63,4 +63,4 @@ const OurProducts = () => {
   );
 };
 
-export default OurProducts;
+export default Card2;

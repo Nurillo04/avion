@@ -99,7 +99,21 @@ const ProductDetails = () => {
                   <div
                     className=" flex justify-between  hover:bg-slate-200 w-[300px] p-[10px] rounded-lg"
                     key={i}
-                  ></div>
+                  >
+                    <div>
+                      <img
+                        className="h-[200px] w-[300px]   rounded-md"
+                        src={e.image}
+                        alt="alt"
+                      />
+                    </div>
+                    <div>
+                      <p className="mb-[8px] lg:mt-[10px] lg:mb-[15px]">
+                        {e.name}
+                      </p>
+                      <p>£{e.price}</p>
+                    </div>
+                  </div>
                 )
               )}
             </div>
